@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="site-nav">
           <nav className="nav-inner wrap">
-            <a href="/" className="brand">Echo</a>
+            <a href="/" className="brand" style={{ display: "inline-flex", alignItems: "center", gap: 8 }}><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 8-8"/><path d="M4 12a8 8 0 0 0 8 8"/><path d="M8.5 12a3.5 3.5 0 0 1 3.5-3.5"/><path d="M8.5 12a3.5 3.5 0 0 0 3.5 3.5"/><path d="M2 12h.01"/></svg>Echo</a>
             <div className="nav-links">
               <a href="/#how">How it works</a>
               <a href="/#features">Why</a>
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <footer className="site-footer">
           <div className="wrap footer-inner">
-            <span className="footer-brand">Echo</span>
+            <span className="footer-brand" style={{ display: "inline-flex", alignItems: "center", gap: 7 }}><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 8-8"/><path d="M4 12a8 8 0 0 0 8 8"/><path d="M8.5 12a3.5 3.5 0 0 1 3.5-3.5"/><path d="M8.5 12a3.5 3.5 0 0 0 3.5 3.5"/><path d="M2 12h.01"/></svg>Echo</span>
             <span className="footer-tag">written between the lines, sent as your own</span>
             <div className="footer-links">
               <a href="/#how">How it works</a>
